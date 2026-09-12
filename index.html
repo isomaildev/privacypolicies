@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sorana Gizlilik Politikası</title>
+    <meta
+      name="description"
+      content="Sorana uygulamasının gizlilik politikası ve kişisel verilerin korunmasına ilişkin bilgilendirme."
+    />
+
+    <style>
+      :root {
+        --background: #f5f7fb;
+        --surface: #ffffff;
+        --text: #18202a;
+        --muted: #5d6876;
+        --primary: #4057d6;
+        --border: #e2e7ef;
+        --notice-background: #eef2ff;
+        --notice-border: #4057d6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font-family:
+          Inter,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        font-size: 16px;
+        line-height: 1.7;
+      }
+
+      main {
+        width: min(900px, calc(100% - 32px));
+        margin: 40px auto;
+        padding: 48px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        box-shadow: 0 12px 35px rgba(22, 32, 56, 0.07);
+      }
+
+      h1,
+      h2 {
+        line-height: 1.3;
+      }
+
+      h1 {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: clamp(2rem, 6vw, 3rem);
+      }
+
+      h2 {
+        margin-top: 40px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--border);
+        font-size: 1.35rem;
+      }
+
+      p,
+      li {
+        color: var(--muted);
+      }
+
+      strong {
+        color: var(--text);
+      }
+
+      a {
+        color: var(--primary);
+        text-underline-offset: 3px;
+      }
+
+      .updated {
+        margin-top: 0;
+        color: var(--muted);
+      }
+
+      .notice {
+        margin: 28px 0;
+        padding: 18px 20px;
+        background: var(--notice-background);
+        border-left: 4px solid var(--notice-border);
+        border-radius: 10px;
+      }
+
+      .notice p {
+        margin: 0;
+        color: var(--text);
+      }
+
+      .table-wrapper {
+        overflow-x: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      th,
+      td {
+        padding: 14px;
+        border: 1px solid var(--border);
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: #f8f9fc;
+        color: var(--text);
+      }
+
+      footer {
+        margin-top: 48px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 640px) {
+        main {
+          width: 100%;
+          margin: 0;
+          padding: 28px 20px;
+          border: 0;
+          border-radius: 0;
+        }
+
+        th,
+        td {
+          padding: 10px;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background: #10131a;
+          --surface: #181d27;
+          --text: #f1f4f9;
+          --muted: #bdc6d4;
+          --primary: #9eacff;
+          --border: #303847;
+          --notice-background: #202943;
+          --notice-border: #9eacff;
+        }
+
+        th {
+          background: #202630;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>Gizlilik Politikası</h1>
+        <p class="updated">
+          <strong>Uygulama:</strong> Sorana<br />
+          <strong>Son güncelleme:</strong> 12 Eylül 2026
+        </p>
+      </header>
+
+      <div class="notice">
+        <p>
+          Sorana, kullanıcı verilerini mümkün olduğunca cihaz üzerinde işler.
+          Mevcut sürümde kullanıcı hesabı oluşturulmaz ve uygulama içindeki
+          kişisel veriler geliştiriciye ait bir sunucuya gönderilmez.
+        </p>
+      </div>
+
+      <section>
+        <h2>1. Veri sorumlusu</h2>
+
+        <p>
+          6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) kapsamında
+          veri sorumlusu:
+        </p>
+
+        <p>
+          <strong>Ad veya unvan:</strong> İsmail Sezer Orhanlı (isomail.dev /
+          isomail)<br />
+          <strong>Adres:</strong> Gödene Mahallesi, Hanedan Caddesi, 90/K,
+          Meram, Konya, Türkiye<br />
+          <strong>E-posta:</strong>
+          <a href="mailto:support@isomail.dev">support@isomail.dev</a>
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Politikanın kapsamı</h2>
+
+        <p>
+          Bu Gizlilik Politikası, Sorana mobil veya masaüstü uygulamasını
+          kullandığınız sırada cihazınızda işlenen bilgiler hakkında sizi
+          bilgilendirmek amacıyla hazırlanmıştır.
+        </p>
+
+        <p>
+          Uygulamanın mağaza üzerinden indirilmesi sırasında Google Play, Apple
+          App Store veya kullanılan diğer dağıtım platformları tarafından
+          işlenen veriler, ilgili platformun kendi gizlilik politikasına
+          tabidir.
+        </p>
+      </section>
+
+      <section>
+        <h2>3. İşlenen bilgiler</h2>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Veri kategorisi</th>
+                <th>Örnek bilgiler</th>
+                <th>Kullanım amacı</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Kullanıcı bilgisi</td>
+                <td>Uygulama içinde seçtiğiniz ad veya kullanıcı adı</td>
+                <td>Uygulama deneyimini kişiselleştirmek</td>
+              </tr>
+
+              <tr>
+                <td>Öğrenme ve kullanım verileri</td>
+                <td>
+                  Soru sonuçları, konu ilerlemesi, başarı istatistikleri,
+                  çalışma süreleri, günlük hedef ve seri bilgileri
+                </td>
+                <td>İlerlemenizi göstermek ve çalışma deneyimini uyarlamak</td>
+              </tr>
+
+              <tr>
+                <td>Tercihler</td>
+                <td>
+                  Dil, tema, ses, günlük hedef, hatırlatıcı durumu ve bildirim
+                  saati
+                </td>
+                <td>Seçtiğiniz uygulama ayarlarını korumak</td>
+              </tr>
+
+              <tr>
+                <td>Teknik zaman bilgisi</td>
+                <td>Cihazın saat dilimi</td>
+                <td>Günlük hatırlatıcıları doğru yerel saatte göstermek</td>
+              </tr>
+
+              <tr>
+                <td>Yedekleme verileri</td>
+                <td>
+                  Kullanıcının isteğiyle dışa aktarılan uygulama tercihleri ve
+                  ilerleme bilgileri
+                </td>
+                <td>
+                  Verilerin başka bir cihaza aktarılabilmesini veya geri
+                  yüklenebilmesini sağlamak
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          Uygulama; e-posta adresi, telefon numarası, kesin konum, kişi listesi,
+          kamera görüntüsü, mikrofon kaydı, ödeme bilgisi veya reklam kimliği
+          talep etmez.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. Verilerin işlenme şekli ve amaçları</h2>
+
+        <p>
+          Bilgiler, uygulama içindeki seçimleriniz ve kullanımınız sırasında
+          elektronik ortamda otomatik yollarla oluşturulur. Bu bilgiler:
+        </p>
+
+        <ul>
+          <li>uygulamanın temel işlevlerini sunmak,</li>
+          <li>öğrenme ilerlemesini cihazda saklamak,</li>
+          <li>kullanıcı tercihlerini hatırlamak,</li>
+          <li>günlük çalışma hedeflerini takip etmek,</li>
+          <li>isteğe bağlı yerel bildirimleri zamanlamak,</li>
+          <li>isteğe bağlı yedekleme ve geri yükleme işlemlerini yürütmek</li>
+        </ul>
+
+        <p>amaçlarıyla sınırlı olarak işlenir.</p>
+      </section>
+
+      <section>
+        <h2>5. Hukuki sebep</h2>
+
+        <p>
+          Kişisel veriler, uygulanabilir olduğu ölçüde KVKK’nın 5. maddesinde
+          belirtilen; bir sözleşmenin kurulması veya ifasıyla doğrudan ilgili
+          olma ve veri sorumlusunun meşru menfaatleri için veri işlemenin
+          zorunlu olması hukuki sebeplerine dayanılarak işlenir.
+        </p>
+
+        <p>
+          Bildirimler yalnızca cihazınızın işletim sistemi üzerinden gerekli
+          izni vermeniz ve uygulamadaki hatırlatıcı özelliğini etkinleştirmeniz
+          hâlinde oluşturulur. Bildirim iznini cihaz ayarlarından dilediğiniz
+          zaman kapatabilirsiniz.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Verilerin saklandığı yer</h2>
+
+        <p>
+          Sorana’nın oluşturduğu kullanıcı adı, ayarlar ve ilerleme bilgileri
+          varsayılan olarak yalnızca cihazınızdaki uygulama depolama alanında
+          saklanır. Bu bilgiler geliştirici tarafından işletilen bir sunucuya
+          yüklenmez.
+        </p>
+
+        <p>
+          Uygulamanın web sürümü kullanılıyorsa aynı tür tercihler ve ilerleme
+          bilgileri tarayıcının yerel depolama alanında tutulabilir. Bu depolama
+          takip veya reklam amacıyla kullanılmaz.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Yedekleme dosyaları</h2>
+
+        <p>
+          “Verileri Kaydet” özelliğini kullanmanız hâlinde uygulama verileriniz,
+          seçtiğiniz konuma bir <code>.sorana</code> yedek dosyası olarak
+          kaydedilir. Bu dosya şifreli bir biçimde oluşturulur ve dosyanın
+          bütünlüğü uygulama tarafından kontrol edilir.
+        </p>
+
+        <p>
+          Yedek dosyasının saklanacağı konumu siz belirlersiniz. Dosyayı bir
+          bulut depolama hizmetine, mesajlaşma uygulamasına veya başka bir
+          üçüncü taraf hizmetine aktarmanız durumunda ilgili hizmetin gizlilik
+          şartları geçerli olur. Yedek dosyasının güvenli şekilde saklanması ve
+          paylaşılmaması kullanıcının sorumluluğundadır.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Bildirimler ve cihaz izinleri</h2>
+
+        <p>
+          Sorana, günlük çalışma hatırlatıcılarını gösterebilmek için bildirim
+          izni isteyebilir. Android cihazlarda planlanan bildirimlerin cihaz
+          yeniden başlatıldıktan sonra devam edebilmesi için başlangıç
+          tamamlanma bilgisine erişilebilir.
+        </p>
+
+        <p>
+          Bu izinler reklam, kullanıcı takibi veya profil oluşturma amacıyla
+          kullanılmaz. Bildirimleri uygulama ayarlarından veya cihazınızın
+          sistem ayarlarından kapatabilirsiniz.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Üçüncü taraflarla paylaşım</h2>
+
+        <p>
+          Sorana’nın mevcut sürümünde uygulama içindeki kullanıcı bilgileri
+          geliştiriciye veya reklam ve analiz şirketlerine aktarılmaz.
+          Uygulamada reklam, davranışsal analiz ya da kullanıcı izleme hizmeti
+          bulunmamaktadır.
+        </p>
+
+        <p>
+          Yetkili kamu kurumlarının hukuken geçerli bir talebi bulunması
+          durumunda yalnızca veri sorumlusunun fiilen sahip olduğu bilgiler,
+          yürürlükteki mevzuatın gerektirdiği ölçüde paylaşılabilir. Cihazınızda
+          yerel olarak bulunan ve geliştiricinin erişemediği bilgiler
+          geliştirici tarafından teslim edilemez.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Saklama süresi ve silme</h2>
+
+        <p>
+          Yerel uygulama verileri, siz silene, uygulama verilerini temizleyene
+          veya uygulamayı kaldırana kadar cihazınızda kalabilir.
+        </p>
+
+        <p>
+          Verileri silmek için cihazınızın uygulama ayarlarından Sorana’ya ait
+          verileri temizleyebilir veya uygulamayı kaldırabilirsiniz. Ayrı olarak
+          oluşturduğunuz yedek dosyalarını, kaydettiğiniz konumdan kendiniz
+          silmeniz gerekir.
+        </p>
+      </section>
+
+      <section>
+        <h2>11. Veri güvenliği</h2>
+
+        <p>
+          Verilerin yetkisiz erişime, değişikliğe veya kayba karşı korunması
+          için makul teknik tedbirler uygulanır. Bununla birlikte hiçbir
+          elektronik saklama yöntemi tamamen risksiz değildir.
+        </p>
+
+        <p>
+          Cihaz kilidi kullanmanız, işletim sisteminizi güncel tutmanız ve yedek
+          dosyalarını güvenilmeyen kişilerle paylaşmamanız önerilir.
+        </p>
+      </section>
+
+      <section>
+        <h2>12. Çocukların gizliliği</h2>
+
+        <p>
+          Sorana eğitim amacıyla çocuklar tarafından da kullanılabilir. Uygulama
+          çocuklardan iletişim bilgisi istemez ve uygulama içindeki verileri
+          geliştiriciye göndermez.
+        </p>
+
+        <p>
+          Çocukların uygulamayı ebeveynlerinin veya yasal temsilcilerinin
+          gözetiminde kullanması önerilir. Bir çocuğun uygulamaya gerçek adı
+          yerine takma ad girmesi tercih edilebilir.
+        </p>
+      </section>
+
+      <section>
+        <h2>13. KVKK kapsamındaki haklarınız</h2>
+
+        <p>KVKK’nın 11. maddesi kapsamında, şartları oluştuğu ölçüde:</p>
+
+        <ul>
+          <li>kişisel verilerinizin işlenip işlenmediğini öğrenme,</li>
+          <li>işlenmişse buna ilişkin bilgi talep etme,</li>
+          <li>
+            işlenme amacını ve amacına uygun kullanılıp kullanılmadığını
+            öğrenme,
+          </li>
+          <li>
+            verilerin aktarıldığı yurt içindeki veya yurt dışındaki üçüncü
+            kişileri öğrenme,
+          </li>
+          <li>eksik veya yanlış işlenen verilerin düzeltilmesini isteme,</li>
+          <li>
+            kanuni şartların oluşması hâlinde verilerin silinmesini veya yok
+            edilmesini isteme,
+          </li>
+          <li>
+            düzeltme veya silme işlemlerinin verilerin aktarıldığı üçüncü
+            kişilere bildirilmesini isteme,
+          </li>
+          <li>
+            otomatik sistemlerle yapılan analiz sonucunda aleyhinize bir sonucun
+            ortaya çıkmasına itiraz etme,
+          </li>
+          <li>
+            hukuka aykırı veri işleme nedeniyle zarara uğramanız hâlinde zararın
+            giderilmesini talep etme
+          </li>
+        </ul>
+
+        <p>haklarına sahipsiniz.</p>
+
+        <p>
+          Sorana’daki verilerin büyük bölümü yalnızca cihazınızda bulunduğundan,
+          geliştirici bu verilere doğrudan erişemez. Haklarınıza ilişkin
+          taleplerinizi aşağıdaki iletişim adresine iletebilirsiniz.
+        </p>
+      </section>
+
+      <section>
+        <h2>14. Politikadaki değişiklikler</h2>
+
+        <p>
+          Uygulamanın özellikleri veya veri işleme yöntemleri değiştiğinde bu
+          Gizlilik Politikası güncellenebilir. Önemli değişiklikler uygulama
+          içinde veya uygulamanın yayımlandığı sayfada duyurulur. Güncel sürüm,
+          sayfanın üst kısmındaki “Son güncelleme” tarihinden takip edilebilir.
+        </p>
+      </section>
+
+      <section>
+        <h2>15. İletişim</h2>
+
+        <p>
+          Gizlilik uygulamalarımız veya kişisel verilerinizle ilgili
+          talepleriniz için:
+        </p>
+
+        <address>
+          <strong>İsmail Sezer Orhanlı ( isomail/ isomail.dev)</strong><br />
+          Gödene Mahallesi, Hanedan Caddesi, 90/K, Meram, Konya, Türkiye<br />
+          E-posta:
+          <a href="mailto:support@isomail.dev">support@isomail.dev</a>
+        </address>
+      </section>
+
+      <footer>
+        <p>&copy; 2026 Sorana. Tüm hakları saklıdır.</p>
+      </footer>
+    </main>
+  </body>
+</html>
